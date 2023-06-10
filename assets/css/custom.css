@@ -1,0 +1,16 @@
+.icon svg {
+    height: 1em;
+    width: 1em;
+  }
+
+/* Links */
+.link {
+    @apply bg-primary-700 text-white hover:brightness-90;
+  }
+  
+  .link-artstation {
+    @apply text-neutral-900;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+  }
